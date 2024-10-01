@@ -7,4 +7,95 @@
 body{
     font-family: "Red Hat Display", sans-serif;
     margin: 5em 1.5em;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 402px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+/* header section */
+.pic{
+    border-radius: 20px 20px 0 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* content section */
+
+.content{
+    padding-bottom: 1em;
+}
+
+.words{
+    padding: 1.5em 2em;
+}
+
+.words h1{
+    margin-bottom: 1em;
+}
+
+.subscription{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.subdesc{
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    margin: 0 1.5em 0 1.5em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.blue{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+.white{
+    margin-top: 1.5em;
+    font-weight: bold;
+}
+
+
+/* desktop */
+
+@media only screen and (min-width: 784px){
+    .page{
+        max-width: 450px;
+    }
+
+    .content{
+        padding: 1em;
+    }
+
+    body{
+        margin: 0;
+        height: 100vh;
+    }
 }
