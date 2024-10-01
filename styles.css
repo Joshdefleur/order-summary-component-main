@@ -7,10 +7,11 @@
 body{
     font-family: "Red Hat Display", sans-serif;
     margin: 5em 1.5em;
-    background-color: lightblue;
+    background-color: #d6e1ff;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="375" height="194"><path fill="%23D6E1FF" fill-rule="evenodd" d="M-131.808 155.366c97.026 51.512 204.233 51.512 321.62 0 117.388-51.512 223.27-51.512 317.648 0V0h-639.268v155.366z"/></svg>')
 }
 
 .page{
@@ -18,7 +19,10 @@ body{
     border-radius: 20px;
     text-align: center;
     max-width: 402px;
+    box-shadow: 0px 16px 23px 5px rgba(56, 41, 224, .2);
 }
+
+ 
 
 p{
     font-size: 16px;
@@ -54,7 +58,6 @@ p{
 .subscription{
     display: flex;
     justify-content: center;
-    gap: 1.5em;
     align-items: center;
     background-color: hsl(225, 100%, 98%);
 }
@@ -62,6 +65,12 @@ p{
 .subdesc{
     display: flex;
     flex-direction: column;
+}
+
+.butt{
+    margin-right: auto;
+    display: flex;
+    gap: 1em;
 }
 
 .button{
@@ -75,6 +84,7 @@ p{
     color: white;
     margin-top: 1.5em;
     font-weight: bold;
+    box-shadow: 0px 16px 23px 5px rgba(56, 41, 224, .2);
 }
 
 .white{
@@ -97,5 +107,7 @@ p{
     body{
         margin: 0;
         height: 100vh;
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1200"><path fill="%23D6E1FF" fill-rule="evenodd" d="M0 349.974c218.558 116.035 460.05 116.035 724.475 0s502.933-116.035 715.525 0V0H0v349.974z"/></svg>');
+        background-color: #d6e1ffa1;
     }
 }
